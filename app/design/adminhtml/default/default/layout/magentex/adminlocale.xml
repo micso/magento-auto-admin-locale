@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<layout>
+    <adminhtml_permissions_user_edit>
+        <reference name="adminhtml.permissions.user.edit.tabs">
+            <action method="addTabAfter">
+                <name>magentex_user_locale</name>
+                <block>magentex_adminlocale/adminhtml_permissions_user_edit_tab_locale</block>
+                <after>main_section</after>
+            </action>
+        </reference>
+    </adminhtml_permissions_user_edit>
+</layout>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Magentex_AdminLocale>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Magentex_AdminLocale>
+    </modules>
+</config>
